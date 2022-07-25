@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'Your Github Username'
+        required: True
+      reason:
+        description: 'Why are you running this workflow?'
+        required: True
+        default: 'I am running tests before implementing an automated workflow'
+        
